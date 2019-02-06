@@ -1,0 +1,37 @@
+<!------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en-GB">
+<!------------------------------------------------------------------------------------------------->
+<head>
+   <title>Diceroller</title>
+   <meta charset="utf-8">
+</head>
+<!------------------------------------------------------------------------------------------------->
+<body>
+   Dices to roll: 
+   <input id='dices' type='number' name='Dices' min='0'></input><br />
+   
+   Target successes: 
+   <input id='target' type='number' name='Target' min='0'></input><br />
+   
+   <br />
+   
+   Exploding: 
+   <input id='exploding' type='checkbox'></input><br />
+
+   <br />
+   
+   <button type="button" onclick='roll()'>Roll baby roll</button>
+
+   <br />
+   
+   <p id='result'></p>
+      
+	<script src="code.js"></script> 
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+           integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+           crossorigin="anonymous">
+   </script>
+</body>
+<!------------------------------------------------------------------------------------------------->
+</html>
